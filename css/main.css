@@ -4,13 +4,7 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    
-}
-
-header{
-    background-image: url(../assets/Images/headerbackBack.png);
-    height: 350px;
-    width: 100%;
-    background-position: center;
-    
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
