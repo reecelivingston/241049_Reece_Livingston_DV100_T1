@@ -50,14 +50,21 @@ a {
 .classSearch {
     width: 30%;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding-bottom: 20px;
+    
+}
+#search{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+#search input {
+    height: 100%;
+    margin: 0;
+    
 }
 
-#search {
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
 .navImg {
     width: 30%;
