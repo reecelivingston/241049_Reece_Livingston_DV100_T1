@@ -1,144 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA Compatible" content="IE-edge">
-        <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <meta name="keywords" content="HTML, CSS, Template, Bootstrap">
-        <meta name="author" content="Reece Livingston, 241049">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA Compatible" content="IE-edge" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+    <meta name="keywords" content="HTML, CSS, Template, Bootstrap" />
+    <meta name="author" content="Reece Livingston, 241049" />
 
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 
-        
-    </head>
-    <body>
-        <header class="homeHero">
-            <div class="navContainer">
-                <div class="navFlex">
-                    <div class="navImg">
-                        <img style="height: 80%; width: 30%;" src="assets/Images/logo.png"> 
-                    </div>
-                    <div class="topNavBar">
-                        <div class="item" id="active">Home</div>
-                        <div class="item"><a href="pages/about_us.html">Flights</a></div>
-                        <div class="item"><a href="pages/contact.html">Contact us</a></div>
-                    </div>
-                    <div class="classSearch">
-                        <form id="search">
-                        <input placeholder="Search" type="text">
-                        </form>
-                    </div>
-                </div>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="homeHero">
+      <div class="navContainer">
+        <div class="navFlex" style="flex-grow: 20;">
+        <img class="navImg" src="assets/Images/logo.png" />
+          <div class="topNavBar">
+            <div class="item" >
+              <a
+                href="../241049_Reece_Livingston_DV100_T1/index.html"
+                id="active"
+                >Home</a
+              >
             </div>
-            <div class="heroText">
-                <h1 class="homeHeading1">RED PLANET VENTURES</h1>
-                <h2>EXPLORE THE SOLAR SYSTEM</H2>
-            </div>
-        </header>
+            <div class="item"><a href="pages/about_us.html">Flights</a></div>
+            <div class="item"><a href="pages/contact.html">Contact us</a></div>
+          </div>
+          <div class="classSearch">
+            <form id="search">
+              <input placeholder="Search" type="text" />
+            </form>
+          </div>
+        </div>
+        <div class="heroText">
+            <h1 class="homeHeading1">RED PLANET </br>VENTURES</h1>
+            <h2>EXPLORE THE SOLAR SYSTEM</h2>
+          </div>
+      </div>
+    </header>
 
     <section class="aSection">
-            <div class="Featured">
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped1.png">
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped2.png">
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped3.png">
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped14.png">
-                <!--arrows-->
-            </div>
-            <div class="tripContRight">
-                <h3 class="header3">FEATURED TRIP</h3>
-                <h2 class="header2">THE CLASSIC MARS <br>EXPERIENCE</h2>
-                <p>Embark on a Mars vacation: red deserts, ancient<br>
-                    relics, and towering canyons await. Enjoy low gravity<br>
-                    hiking, rover trips to Olympus Mons, and stargazing<br>
-                    under Phobos and Deimos. Unforgettable adventures<br>
-                    beckon on the rust colored landscapes of the Red<br>
-                    Planet.
-                </p>
-                <div class="buttonDiv">
-                    <button class="tripButton">Book Now</button>
-               </div>
-            </div>
+     <div class="featureSection">
+      <div class="featured">
+        <img class="sliderImg"
+          src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped1.png"
+        />
+        <!--<img class="sliderImg"
+          src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped2.png"
+        />
+        <img class="sliderImg"
+          src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped3.png"
+        />
+        <img class="sliderImg"
+          src="../241049_Reece_Livingston_DV100_T1/assets/Images/marsSliderClipped14.png"
+        />-->
+        <!--arrows-->
+      </div>
+      <div class="tripContRight">
+        <h3 class="header3">FEATURED TRIP</h3>
+        <h2 class="header2">THE CLASSIC MARS <br />EXPERIENCE</h2>
+        <p class="text">
+          Embark on a Mars vacation: red deserts, ancient<br />
+          relics, and towering canyons await. Enjoy low gravity<br />
+          hiking, rover trips to Olympus Mons, and stargazing<br />
+          under Phobos and Deimos. Unforgettable adventures<br />
+          beckon on the rust colored landscapes of the Red<br />
+          Planet.
+        </p>
+        <div class="buttonDiv">
+          <button class="tripButton">Book Now</button>
+        </div>
+        </div>
+      </div>
     </section>
 
     <section class="bSection">
-        <div class="shuttleFlex">
-            <div class="shuttleInfoLeft">
-                <h3 class="header3 alignLeft">OUR SHUTTLES</h3>
-                <h2>Travel in Style with a<br>variety of shuttles</h2>
-                <p>Select from our range of luxury, commercial, or<br>
-                    budget shuttles to fulfill your dream space<br>
-                    vacation. Experience unparalleled comfort and<br>
-                    convenience as you journey to your planet of<br>
-                    choice, ensuring an unforgettable and tailored<br>
-                    experience for every traveler.</p>
-            </div>
-            <div class="shuttleRight">
-                <img style="height:100% ; width: 100%;" src="../241049_Reece_Livingston_DV100_T1/assets/Images/spacSchuttles.png">
-            </div>
+      <div class="shuttleFlex">
+        <div class="shuttleInfoLeft">
+          <h3 class="header3 alignLeft">OUR SHUTTLES</h3>
+          <h2>Travel in Style with a<br />variety of shuttles</h2>
+          <p class="text">
+            Select from our range of luxury, commercial, or<br />
+            budget shuttles to fulfill your dream space<br />
+            vacation. Experience unparalleled comfort and<br />
+            convenience as you journey to your planet of<br />
+            choice, ensuring an unforgettable and tailored<br />
+            experience for every traveler.
+          </p>
         </div>
+        <div class="shuttleRight">
+          <img
+            style="height: 100%; width: 100%"
+            src="../241049_Reece_Livingston_DV100_T1/assets/Images/spacSchuttles.png"
+          />
+        </div>
+      </div>
     </section>
 
     <section class="aSection">
-        <div>
-            <h3 class="header3">UPCOMING TRIP SNEAK PEAK</h3>
-            <h2 class="header2">Take a Look At Some Of Our <br>Upcoming Trips</h2>
-        </div>
-        <div class="tripContainer">
+      <div class="upcomingSection">
+        <h3 class="header3" style="text-align: center;">UPCOMING TRIP SNEAK PEAK</h3>
+        <h2 class="header2" style="text-align: center; line-height: 1;">Take a Look At Some Of Our <br />Upcoming Trips</h2>
+      <div class="tripContainer">
         <div class="tripFlex">
-            <div>
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip1.png">
-                <h3 class="headTrip">The Classic Mars<br>Experience</h3>
-                <p>Explore red deserts, ancient relics,<br>low gravity adventures on Mars</p>
-            </div>
-            <div>
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip3.png">
-                <h3 class="headTrip">Neptune’s Cosmic<br>Dive</h3>
-                <p>Experience Neptune's mysterious<br>depths in a celestial voyage.</p>
-            </div>
-            <div>
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip2.png">
-                <h3 class="headTrip">Jupiter: The Giant’s<br>Journey</h3>
-                <p>Embark on Jupiter and witness the<br>gas giant's majesty.</p>
-            </div>
-            <div>
-                <img src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip4.png">
-                <h3 class="headTrip">Ring a Round a<br>Saturn</h3>
-                <p>Explore Saturn's rings, moons, and<br>enigmatic beauty on an odyssey</p>
-            </div>
+          <div>
+            <img class="tripImg"
+              src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip1.png"
+            />
+            <h3 class="headTrip">The Classic Mars<br />Experience</h3>
+            <p class="textTrip">
+              Explore red deserts, ancient relics,<br />low gravity adventures
+              on Mars
+            </p>
+          </div>
+          <div>
+            <img class="tripImg"
+              src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip3.png"
+            />
+            <h3 class="headTrip">Neptune’s Cosmic<br />Dive</h3>
+            <p class="textTrip">
+              Experience Neptune's mysterious<br />depths in a celestial voyage.
+            </p>
+          </div>
+          <div>
+            <img class="tripImg"
+              src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip2.png"
+            />
+            <h3 class="headTrip">Jupiter: The Giant’s<br />Journey</h3>
+            <p class="textTrip">Embark on Jupiter and witness the<br />gas giant's majesty.</p>
+          </div>
+          <div>
+            <img class="tripImg"
+              src="../241049_Reece_Livingston_DV100_T1/assets/Images/upcomingTrip4.png"
+            />
+            <h3 class="headTrip">Ring a Round a<br />Saturn</h3>
+            <p class="textTrip">
+              Explore Saturn's rings, moons, and<br />enigmatic beauty on an
+              odyssey
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="buttonDiv">
+        <button class="tripButton">Book a Trip Now</button>
+      </div>
+    </div>
+    </section>
+  </body>
+  <footer>
+    <div class="footerFlex">
+      <div style="flex-grow: 1">
+        <img class="footLogo" src="assets/Images/logo.png" />
+        <p class="text">
+          Offering unforgettable trips to<br />explore planets in our solar<br />system.
+        </p>
+      </div>
+      <div style="flex-grow: 1">
+        <h3 class>Company</h3>
+        <a href="index.html">Home</a>
+        <a href="pages/about_us.html">Flights</a>
+        <a href="pages/contact.html">Contact us</a>
+      </div>
+      <div style="flex-grow: 3">
+        <h3>Social Media Links</h3>
+        <div class="socialFlex">
+          <div>
+            <a href=""
+              ><img class="socialImg" src="assets/Images/smInstagram.png"
+            /></a>
+          </div>
+          <div>
+            <a href=""><img class="socialImg" src="assets/Images/smX.png" /></a>
+          </div>
+          <div>
+            <a href=""
+              ><img class="socialImg" src="assets/Images/smTicktock.png"
+            /></a>
+          </div>
+          <div>
+            <a href=""
+              ><img class="socialImg" src="assets/Images/smFacebook.png"
+            /></a>
+          </div>
         </div>
-        <div class="buttonDiv">
-             <button class="tripButton">Book a Trip Now</button>
-        </div>
-        </section>
-
-    </body>
-    <footer>
-        <div class="footerFlex">
-            <div style="flex-grow: 1">
-                <img class="footLogo" src="assets/Images/logo.png">
-                <p>Offering unforgettable trips to<br>explore planets in our solar<br>system.</p>
-            </div>
-            <div style="flex-grow: 1">
-                <h3>Company</h3>
-                <a href="index.html">Home</a>
-                <a href="pages/about_us.html">Flights</a>
-                <a href="pages/contact.html">Contact us</a>
-            </div>
-            <div style="flex-grow: 3">
-                <h3>Social Media Links</h3>
-                <div class="socialFlex">
-                    <div><a href=""><img class="socialImg" src="assets/Images/smInstagram.png"></a></div>
-                    <div><a href=""><img class="socialImg" src="assets/Images/smX.png"></a></div>
-                    <div><a href=""><img class="socialImg"  src="assets/Images/smTicktock.png"></a></div>
-                    <div><a href=""><img class="socialImg"  src="assets/Images/smFacebook.png"></a></div>
-                </div>
-            </div>
-        </div>
-        <div class="footContainer">
-            <div style="flex-grow: 10"><p>All Rights Reserved @ Open Window 2024</p></div>
-            <div style="flex-grow: 1"><a href="">Terms & Conditions</a></div>
-            <div style="flex-grow: 1"><a href="">Privacy & Policy</a></div>
-        </div>
-    </footer>
+      </div>
+    </div>
+    <hr />
+    <div class="footContainer">
+      <div style="flex-grow: 10">
+        <p>All Rights Reserved @ Open Window 2024</p>
+      </div>
+      <div style="flex-grow: 1"><a href="">Terms & Conditions</a></div>
+      <div style="flex-grow: 1"><a href="">Privacy & Policy</a></div>
+    </div>
+  </footer>
 </html>
