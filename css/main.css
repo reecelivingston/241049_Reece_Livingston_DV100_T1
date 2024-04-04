@@ -62,6 +62,7 @@ a {
 }
 .topNavBar {
   display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding: 1vh 0.4vw 1vh 0.4vw;
@@ -70,11 +71,11 @@ a {
 
 .classSearch {
   width: 30%;
-  text-align: center;
+  text-align: right;
   padding-bottom: 1.4vh;
 }
 #search {
-  width: 100%;
+  width: auto;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -82,12 +83,13 @@ a {
 #search input {
   align-items: end;
   height: 4vh;
-  width: 6.2vw;
+  width: 12vw;
 }
 
 .navImg {
-  width:14vw;
-  height: 5vh;
+  align-self: center;
+  width:18vw;
+  height: 6vh;
   opacity: 100%;
 }
 .navContainer {
@@ -214,7 +216,7 @@ a {
 
 .flightsHero {
   background-image: url(../assets/Images/headerbackBack.png);
-  height: 35vh;
+  height: 40vh;
   width: auto;
   background-position: center;
   background-size: cover;
@@ -262,6 +264,7 @@ a {
 }
 
 .aboutImg {
+  align-content: center;
   padding-left: 5.9vw;
   padding-right: 1.4vw ;
   padding-top: 2.8vh;
@@ -444,10 +447,10 @@ fieldset{
   width: 35vw;
   padding-right: 7vw;
 }
-.flightBook{
+.bookButton{
   text-align: center;
   background-color: red;
-  color: #ff000000;
+  color: #ffffff;
   font-size: 1.6em;
   display: inline-block;
   padding: 1vh 1vw;
@@ -457,18 +460,19 @@ fieldset{
   border: red;
 }
 
-.bookButton{
+.flightBook{
   text-align: center;
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .cartButton {
   text-align: center;
-  background-color: red;
-  color: #ff000000;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
   font-size: 1.6em;
   display: inline-block;
-  padding: 1vh 1vw;
+  padding: 1vh 1vw 1vh 1vw;
   height: 9vh;
   width: 16vw;
   border-radius: 1vw;
@@ -477,7 +481,9 @@ fieldset{
 
 .flightsCart {
   text-align: center;
-  padding-top: 3%;
+  padding-left: 6vw;
+  padding-bottom: 5vh;
+  align-self: flex-end;
 }
 
 
