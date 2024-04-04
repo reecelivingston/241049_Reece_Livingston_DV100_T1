@@ -92,8 +92,7 @@ a {
   height: 6vh;
   opacity: 100%;
 }
-.navContainer {
-}
+
 .aSection {
   background-color: blueviolet;
   color: #ffffff;
@@ -312,9 +311,6 @@ a {
   padding-top: 7vh;
   padding-bottom: 10vh;
 }
-#contactForm {
-
-}
 #contact{
   background-image: url(../assets/Images/formBack.png);
   background-size: cover;
@@ -335,7 +331,6 @@ fieldset{
 
 #contact input, #contact textarea{
   width: 30vw;
-  height: 4vw
   border: 1px solid #ccc;
   background-color: #dddddd;
   margin: 0 0 5px;
@@ -368,8 +363,8 @@ fieldset{
 }
 
 #contact button:hover{
-  background-color: #000000:
-  color: #ffffff:
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .flightA{
