@@ -178,9 +178,10 @@ a {
   color: #ffffff;
   font-size: 1.6em;
   display: inline-block;
-  padding: 1vh 2.8vw;
-  height: 6vh;
-  border-radius: 0.5vw;
+  padding: 1vh 1vw;
+  height: 9vh;
+  width: 16vw;
+  border-radius: 1vw;
   border: red;
 }
 
@@ -189,27 +190,6 @@ a {
   padding-top: 3%;
 }
 
-.footerFlex {
-  display: flex;
-  padding: 5.6vh 3.2vw 5.6vh 3.2vw;
-}
-
-.socialFlex {
-  display: flex;
-}
-
-.socialImg {
-  width: 2.35vw;
-  height:4.2vh;
-}
-
-.footContainer {
-  display: flex;
-}
-.footLogo {
-  width: 35%;
-  height: 35%;
-}
 .shuttleFlex {
   display: flex;
   justify-content: left;
@@ -316,4 +296,46 @@ a {
 }
 #contactForm {
   padding: 7vh 14vw;
+}
+
+.footLogo{
+  width: 22vw;
+  height: 7vh;
+  padding-bottom: 3vh;
+}
+
+.logoFoot{
+  display: flex;
+  flex-direction: column;
+  padding-right: 16vw;
+  padding-left: 6vw;
+}
+.footCompany{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10vw;
+  font-size: 1.2em;
+  line-height: 2.8;
+}
+
+.footerFlex {
+  display: flex;
+  padding: 7vh 3.2vw 7vh 3.2vw;
+}
+
+
+.socialImg {
+  width: 4.3vw;
+  height:7.64vh;
+  padding-right:1vw;
+  padding-top: 2vh;
+}
+.socialFlex{
+  padding-left: 6vw;
+}
+
+.importantAnc{
+  display: flex;
+  flex-direction: row;
+  padding: 2vh 6vw;
 }
