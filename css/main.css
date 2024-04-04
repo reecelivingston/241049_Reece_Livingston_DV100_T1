@@ -263,6 +263,7 @@ a {
 
 .aboutImg {
   padding-left: 5.9vw;
+  padding-right: 1.4vw ;
   padding-top: 2.8vh;
 }
 
@@ -272,31 +273,213 @@ a {
 }
 
 .contactImg {
-  width: 4.7vw;
+  width: 8vw;
   padding-right: 1.4vw;
 }
 
 .contactMedia {
   display: flex;
   flex-direction: column;
-  padding-left: 2.35vw;
-  justify-content: left;
+}
+.location{
+  padding-top: 8vh;
+}
+.contactLeft{
+  display: flex;
+  flex-direction: column;
+  padding-top: 6vh;
+  padding-left: 4vw;
+  padding-right: 8vw;
 }
 
 .contactDetails {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  height: 30vh;
+  padding-top: 2vh;
+}
+.formBackground{
+  width: 100%;
+  height: 100%
 }
 
 .contactSection {
   display: flex;
   flex-direction: row;
-  padding-top: 7vhx;
+  align-content: center;
+  padding-top: 7vh;
+  padding-bottom: 10vh;
 }
 #contactForm {
-  padding: 7vh 14vw;
+
 }
+#contact{
+  background-image: url(../assets/Images/formBack.png);
+  background-size: cover;
+  background-position: right;
+  border-radius: 14px;
+  padding:4vh 4vw;
+  padding-left: 7vw;
+  height: 80vh;
+  width: 36vw
+}
+fieldset{
+  border: medium none !important;
+  margin: 0 0 10px;
+  padding: 4%;
+  width: 12vw;
+  height: 2vh;
+}
+
+#contact input, #contact textarea{
+  width: 30vw;
+  height: 4vw
+  border: 1px solid #ccc;
+  background-color: #dddddd;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact textarea{
+  height: 2vh;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button{
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  background-color: #28c7cc;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#contact input:hover, #contact textarea:hover{
+  border: 2px solid #242424;
+  resize: none;
+}
+
+#contact input:focus, #contact textarea:focus{
+  outline: 0;
+  border: 3px solid #e91212;
+}
+
+#contact button:hover{
+  background-color: #000000:
+  color: #ffffff:
+}
+
+.flightA{
+  display: flex;
+  background-color: white;
+  padding: 10vh 8vw 6vh 8vw;
+}
+.productInfo{
+  display: flex;
+  flex-direction: column;
+}
+.aProdHead{
+  color: black;
+  font-size: 2.5em;
+  line-height: 1.8;
+  text-align: left;
+}
+.Price{
+  display: flex;
+
+}
+.aPrice{
+  color: grey;
+  font-size: 2em;
+  line-height: 1.8;
+  text-align: left;
+  padding-right: 1vw;
+}
+
+.aProdInfo{
+  color: black;
+  font-size: 1.6em;
+  line-height: 1.8;
+  text-align: left;
+}
+.specifications{
+  display: flex;
+  flex-direction: column;
+}
+.specText{
+  color: grey;
+  font-size: 1.3em;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.flightB{
+  display: flex;
+  background-color: rgb(20, 15, 176);
+  padding: 10vh 8vw 6vh 8vw;
+}
+.bProdHead{
+  color: white;
+  font-size: 2.5em;
+  line-height: 1.8;
+  text-align: left;
+}
+.bPrice{
+  color: rgb(255, 0, 0);
+  font-size: 2em;
+  line-height: 1.8;
+  text-align: left;
+  padding-right: 1vw;
+}
+
+.bProdInfo{
+  color: white;
+  font-size: 1.6em;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.flightImg{
+  float: left;
+  width: 35vw;
+  padding-right: 7vw;
+}
+.flightBook{
+  text-align: center;
+  background-color: red;
+  color: #ff000000;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 1vh 1vw;
+  height: 9vh;
+  width: 16vw;
+  border-radius: 1vw;
+  border: red;
+}
+
+.bookButton{
+  text-align: center;
+  padding-top: 3%;
+}
+
+.cartButton {
+  text-align: center;
+  background-color: red;
+  color: #ff000000;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 1vh 1vw;
+  height: 9vh;
+  width: 16vw;
+  border-radius: 1vw;
+  border: red;
+}
+
+.flightsCart {
+  text-align: center;
+  padding-top: 3%;
+}
+
 
 .footLogo{
   width: 22vw;
