@@ -475,9 +475,10 @@ fieldset{
 }
 
 .flightsCart {
-  text-align: center;
-  padding-left: 6vw;
-  padding-bottom: 5vh;
+  background-color: #1d282d;
+  text-align:end;
+  padding-right: 6vw;
+  padding-bottom: 10vh;
   align-self: flex-end;
 }
 
