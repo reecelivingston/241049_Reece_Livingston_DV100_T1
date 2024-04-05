@@ -18,7 +18,7 @@ a {
   color: dimgrey;
 }
 #active {
-  color: red;
+  color: #e70a0d;
 }
 
 .heroText {
@@ -32,7 +32,7 @@ a {
 
 .homeHeading1 {
   font-family: "Porter Sans Block";
-  color: red;
+  color: #Dce1e9;
   font-size: 3.75em;
 }
 
@@ -94,7 +94,7 @@ a {
 }
 
 .aSection {
-  background-color: blueviolet;
+  background-color: #1d282d;
   color: #ffffff;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -175,7 +175,7 @@ a {
 
 .tripButton {
   text-align: center;
-  background-color: red;
+  background-color: #e70a0ded;
   color: #ffffff;
   font-size: 1.6em;
   display: inline-block;
@@ -183,7 +183,7 @@ a {
   height: 9vh;
   width: 16vw;
   border-radius: 1vw;
-  border: red;
+  border: #e70a0d;
 }
 
 .buttonDiv {
@@ -413,7 +413,7 @@ fieldset{
 
 .flightB{
   display: flex;
-  background-color: rgb(20, 15, 176);
+  background-color: #1d282d;
   padding: 10vh 8vw 6vh 8vw;
 }
 .bProdHead{
@@ -444,7 +444,7 @@ fieldset{
 }
 .bookButton{
   text-align: center;
-  background-color: red;
+  background-color: #e70a0d;
   color: #ffffff;
   font-size: 1.6em;
   display: inline-block;
@@ -452,7 +452,7 @@ fieldset{
   height: 9vh;
   width: 16vw;
   border-radius: 1vw;
-  border: red;
+  border: #e70a0d;
 }
 
 .flightBook{
